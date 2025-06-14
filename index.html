@@ -15,7 +15,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#roi-calculator">ROI Calculator</a></li>
+                    <li><a href="#roi-calculator-section">ROI Calculator</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#case-study">Case Study</a></li>
                     <li><a href="#pricing">Pricing</a></li>
@@ -23,13 +23,13 @@
                     <li><a href="#blog">Blog</a></li>
                 </ul>
             </nav>
-            <a href="#schedule-demo" class="demo-button">Schedule a Demo</a>
+            <a href="#contact" class="demo-button">Schedule a Demo</a>
         </section>
         <section id="hero">
             <h1>How Can You Turn Your Missed Calls into Increased Revenue?</h1>
             <p>RestoHost AI ensures your restaurant never misses a call—day or night— while automating phone order taking, reservations, and even responding to frequently asked questions.</p>
-            <a href="#get-started" class="button">Get Started</a>
-            <a href="#listen-demo" class="button-secondary">LISTEN TO A DEMO</a>
+            <a href="#pricing" class="button">Get Started</a>
+            <a href="#features" class="button-secondary">LISTEN TO A DEMO</a>
             <div class="statistics">
                 <div>
                     <span class="statistic-value">0%</span>
@@ -105,7 +105,7 @@
                     <p>Analyze missed calls, peak hours, and upselling opportunities.</p>
                 </div>
             </div>
-            <a href="#get-started-roi" class="button">Start transforming missed calls into profits today!</a>
+            <a href="#contact" class="button">Start transforming missed calls into profits today!</a>
         </section>
         <section id="pricing">
             <h2>Our Pricing</h2>
@@ -122,7 +122,7 @@
                         <li>To-go order intake</li>
                         <li>Pre-set voice and Host agent</li>
                     </ul>
-                    <a href="#get-started-standard" class="button">Get Started</a>
+                    <a href="#contact" class="button">Get Started</a>
                 </div>
                 <div class="pricing-plan best-value">
                     <span class="badge">Best Value</span>
@@ -136,7 +136,7 @@
                         <li>Multilingual support</li>
                         <li>Dedicated Customer Success Manager</li>
                     </ul>
-                    <a href="#get-started-executive" class="button">Get Started</a>
+                    <a href="#contact" class="button">Get Started</a>
                 </div>
                 <div class="pricing-plan">
                     <h4>Enterprise Plan</h4>
@@ -145,7 +145,7 @@
                         <li>Tailored AI Host solutions for chains with + 25 locations</li>
                         <li>Integrating into your processes with AI revolution</li>
                     </ul>
-                    <a href="#contact-sales-enterprise" class="button button-secondary">Contact sales</a>
+                    <a href="#contact" class="button button-secondary">Contact sales</a>
                 </div>
             </div>
         </section>
@@ -179,13 +179,81 @@
             </div>
         </section>
         <section id="testimonials">
-            <!-- Testimonials content will go here -->
+            <h2>Trusted by Leading Restaurants</h2>
+            <div class="logos-grid trusted-logos">
+                <div class="logo-placeholder">Zocalo Logo</div>
+                <div class="logo-placeholder">Rreal Tacos Logo</div>
+                <div class="logo-placeholder">Ferrando's Logo</div>
+                <div class="logo-placeholder">Mikata Logo</div>
+                <div class="logo-placeholder">Lima Logo</div>
+                <div class="logo-placeholder">Eclipse Logo</div>
+            </div>
+            <!-- Other testimonials content can go here -->
         </section>
         <section id="contact">
-            <!-- Contact content will go here -->
+            <h2>Curious about your exact numbers?</h2>
+            <p>Schedule a free consultation and upload your call history (CSV) through our easy-to-use form . We’ll analyze: Total inbound calls vs. missed calls, Peak hours that cause the biggest revenue leaks, How upselling could boost your average ticket, Your custom ROI projections.</p>
+            <form id="contact-form" method="POST" action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="restaurant-name">Restaurant Name</label>
+                    <input type="text" id="restaurant-name" name="restaurant-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="call-log">Upload Your Call Log (CSV)</label>
+                    <input type="file" id="call-log" name="call-log" accept=".csv">
+                </div>
+                <button type="submit" class="button">SUBMIT</button>
+            </form>
         </section>
         <section id="footer">
-            <!-- Footer content will go here -->
+            <div class="footer-container">
+                <div class="footer-column about">
+                    <div class="logo-placeholder-footer">RestoHost AI Logo</div>
+                    <p class="tagline">AI-Driven Voice Restaurant Assistants for Seamless Customer Interaction.</p>
+                    <div class="social-icons">
+                        <a href="#">[LinkedIn]</a>
+                        <a href="#">[Instagram]</a>
+                    </div>
+                </div>
+                <div class="footer-column links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#roi-calculator-section">ROI Calculator</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#case-study">Case Study</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column contact-info">
+                    <h4>Contact Us</h4>
+                    <p>Phone: <a href="tel:+14044822738">+1 404 482-2738</a></p>
+                    <p>Email: <a href="mailto:info@restohost.ai">info@restohost.ai</a></p>
+                </div>
+                <div class="footer-column design-credit">
+                    <h4>Content, Marketing & Web Design</h4>
+                    <a href="http://www.vsdigitalgroup.com" target="_blank">
+                        <div class="logo-placeholder-footer">[VS Digital Group Logo]</div>
+                        www.vsdigitalgroup.com
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RestoHost AI. All Rights Reserved.</p>
+            </div>
         </section>
     </main>
 </body>

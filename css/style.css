@@ -533,3 +533,493 @@
     /* Placeholder styles */
     background-color: #6c757d;
 }
+
+/* Testimonials Section - "Trusted by" Logos */
+#testimonials {
+    /* Placeholder styles */
+    padding: 2em 0;
+    text-align: center;
+    background-color: #ffffff; /* White background, or a very light gray if contrast needed */
+}
+
+#testimonials h2 {
+    /* Placeholder styles */
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+    color: #444;
+}
+
+/* Reusing .logos-grid and .logo-placeholder from #compatible-with section for consistency */
+/* If specific adjustments are needed for testimonials logos, they can be added here, */
+/* for example, by targeting #testimonials .logos-grid or #testimonials .logo-placeholder */
+
+#testimonials .trusted-logos {
+    /* Placeholder if any specific adjustments needed for this instance of logos-grid */
+    /* For example, different gap or max-width */
+    /* For now, it will inherit from .logos-grid defined under #compatible-with */
+}
+
+#testimonials .logo-placeholder {
+    /* If specific styling for these logos is needed, e.g., different background or border */
+    /* For now, it will inherit from .logo-placeholder defined under #compatible-with */
+    /* Example: background-color: #f0f0f0; to slightly differentiate if needed */
+}
+
+/* Contact Us Section */
+#contact {
+    /* Placeholder styles */
+    padding: 3em 1em; /* Added horizontal padding */
+    text-align: center;
+    background-color: #e9ecef; /* Slightly different light gray */
+}
+
+#contact h2 {
+    /* Placeholder styles */
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+#contact p { /* For the descriptive text */
+    /* Placeholder styles */
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    color: #555;
+}
+
+#contact-form {
+    /* Placeholder styles */
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+    background-color: #fff;
+    padding: 2.5em;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+#contact .form-group {
+    /* Placeholder styles */
+    margin-bottom: 1.5em;
+}
+
+#contact label {
+    /* Placeholder styles */
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 0.95em;
+    color: #495057;
+}
+
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"],
+#contact input[type="file"] {
+    /* Placeholder styles */
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: 1em;
+}
+
+#contact input[type="file"] {
+    /* Specific styling for file input if needed */
+    padding: 0.5em; /* Adjust padding for file input */
+}
+
+#contact .button[type="submit"] {
+    /* Placeholder styles */
+    background-color: #007bff;
+    color: white;
+    padding: 0.75em 1.5em; /* Standard padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: block; /* Make button take full width */
+    width: 100%;
+    margin-top: 1em; /* Space above the button */
+    transition: background-color 0.3s ease;
+}
+
+#contact .button[type="submit"]:hover {
+    /* Placeholder styles */
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer Section */
+#footer {
+    /* Placeholder styles */
+    background-color: #343a40; /* Dark background for footer */
+    color: #f8f9fa; /* Light text color */
+    padding: 3em 1em; /* Padding top/bottom and left/right */
+}
+
+#footer .footer-container {
+    /* Placeholder styles */
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+    justify-content: space-between; /* Distribute columns */
+    gap: 2em; /* Space between columns */
+    max-width: 1200px; /* Max width for footer content */
+    margin: 0 auto; /* Center footer content */
+    padding-bottom: 2em; /* Space before footer-bottom text */
+}
+
+#footer .footer-column {
+    /* Placeholder styles */
+    flex: 1; /* Allow columns to grow */
+    min-width: 220px; /* Minimum width for each column before wrapping */
+    margin-bottom: 1.5em; /* Space below columns on wrap */
+}
+
+#footer .logo-placeholder-footer {
+    /* Placeholder styles */
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #17a2b8; /* Example accent color for logo */
+}
+
+#footer .tagline {
+    /* Placeholder styles */
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    line-height: 1.6;
+    color: #adb5bd; /* Lighter text color for tagline */
+}
+
+#footer .social-icons a {
+    /* Placeholder styles */
+    color: #f8f9fa;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2em; /* Placeholder for icon size */
+}
+
+#footer .social-icons a:hover {
+    color: #17a2b8; /* Accent color on hover */
+}
+
+#footer h4 { /* For column titles like "Quick Links" */
+    /* Placeholder styles */
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    color: #ffffff; /* White color for titles */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#footer ul {
+    /* Placeholder styles */
+    list-style: none;
+    padding: 0;
+}
+
+#footer ul li {
+    /* Placeholder styles */
+    margin-bottom: 0.6em;
+}
+
+#footer ul li a {
+    /* Placeholder styles */
+    color: #adb5bd; /* Lighter text for links */
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+#footer ul li a:hover {
+    color: #ffffff; /* White on hover */
+    text-decoration: underline;
+}
+
+#footer .contact-info p {
+    /* Placeholder styles */
+    margin-bottom: 0.6em;
+    font-size: 0.95em;
+    color: #adb5bd;
+}
+
+/* -------------------- Media Queries for Responsiveness -------------------- */
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    /* Header */
+    #header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em; /* Add padding for smaller screens */
+    }
+    #header nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1em;
+    }
+    #header nav li {
+        float: none; /* Override float */
+        margin-bottom: 0.5em;
+    }
+    #header .logo-container {
+        float: none; /* Override float */
+        margin-bottom: 0.5em;
+    }
+    #header .demo-button {
+        float: none; /* Override float */
+        margin-top: 1em;
+        display: inline-block; /* Ensure it's not full width */
+    }
+
+    /* Hero Section */
+    #hero h1 {
+        font-size: 2em; /* Slightly smaller font for headline */
+    }
+    #hero p {
+        font-size: 1.1em; /* Adjust sub-headline font */
+    }
+    #hero .statistics {
+        flex-direction: column;
+        gap: 1.5em; /* Space between stacked items */
+    }
+    #hero .button, #hero .button-secondary {
+        display: block; /* Stack buttons */
+        margin-bottom: 0.5em;
+        margin-right: 0; /* Remove right margin */
+        text-align: center;
+    }
+
+
+    /* Features Section / Sneak Peek */
+    #features .voice-demos {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+    #features .demo-container {
+        width: 80%; /* Wider for single column */
+    }
+    #features .features-grid {
+        grid-template-columns: 1fr; /* Stack grid items */
+    }
+
+    /* ROI Calculator Section */
+    #roi-calculator-section .calculator-subsections {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+    #roi-calculator-section .subsection {
+        width: 90%; /* Wider for single column */
+    }
+
+    /* Pricing Section */
+    #pricing .pricing-plans-container {
+        flex-direction: column;
+        align-items: center; /* Center plans when stacked */
+        gap: 2em;
+    }
+    #pricing .pricing-plan {
+        width: 80%; /* Adjust width for stacked plans */
+        max-width: 350px; /* Max width for readability */
+        transform: scale(1); /* Reset best-value scale */
+    }
+    #pricing .pricing-plan.best-value {
+        transform: scale(1.02); /* Keep a slight emphasis */
+    }
+
+
+    /* Case Study Section */
+    #case-study .benefits-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+    #case-study .benefit-item {
+        width: 90%; /* Wider for single column */
+    }
+
+    /* Compatible With & Trusted By Logos */
+    /* .logos-grid is already flex-wrap: wrap, which is good. May need to adjust gap or placeholder width */
+    #compatible-with .logo-placeholder,
+    #testimonials .logo-placeholder {
+        min-width: 100px; /* Slightly smaller min-width for logos */
+        padding: 0.8em 1.2em;
+    }
+    #compatible-with .logos-grid,
+    #testimonials .logos-grid {
+        gap: 1.5em; /* Adjust gap for smaller screens */
+    }
+
+
+    /* Contact Form */
+    #contact-form {
+        padding: 2em; /* Slightly less padding */
+    }
+
+    /* Footer */
+    #footer .footer-container {
+        flex-direction: column;
+        align-items: center; /* Center columns when stacked */
+        text-align: center; /* Center text within columns */
+    }
+    #footer .footer-column {
+        min-width: 100%; /* Full width for stacked columns */
+        margin-bottom: 2em;
+    }
+    #footer .social-icons {
+        justify-content: center; /* Center social icons */
+        display: flex;
+    }
+    #footer ul {
+        text-align: center;
+    }
+}
+
+/* Small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+    /* General adjustments for very small screens */
+    body {
+        font-size: 15px; /* Slightly smaller base font for readability */
+    }
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.6em; }
+    h3 { font-size: 1.3em; }
+    h4 { font-size: 1.1em; }
+
+    /* Header */
+    #header { padding: 0.8em; }
+    #header .logo-container img { max-width: 150px; } /* Smaller logo */
+
+
+    /* Hero Section */
+    #hero { padding: 1.5em 0.5em; } /* Adjust padding */
+    #hero h1 {
+        font-size: 1.6em;
+    }
+    #hero p {
+        font-size: 1em;
+    }
+    #hero .statistic-value {
+        font-size: 1.8em;
+    }
+
+    /* Features Section / Sneak Peek */
+    #features .demo-container {
+        width: 95%; /* Even wider */
+    }
+    #features .services-subsection > p,
+    #features > p { /* For sneak peek intro */
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+
+    /* ROI Calculator Section */
+    #roi-calculator-section { padding: 1.5em 0.5em; }
+    #roi-calculator-section .subsection {
+        width: 95%;
+    }
+    #roi-calculator-placeholder {
+        padding: 1.5em;
+    }
+
+
+    /* Pricing Section */
+    #pricing .pricing-plan {
+        width: 95%; /* Wider for very small screens */
+    }
+    #pricing .price {
+        font-size: 1.6em;
+    }
+
+    /* Case Study Section */
+    #case-study { padding: 1.5em 0.5em; }
+    #case-study .benefit-item {
+        width: 95%;
+        padding: 1em;
+    }
+
+    /* Compatible With & Trusted By Logos */
+    #compatible-with .logo-placeholder,
+    #testimonials .logo-placeholder {
+        min-width: 80px;
+        font-size: 0.8em;
+        padding: 0.6em 1em;
+    }
+     #compatible-with .logos-grid,
+    #testimonials .logos-grid {
+        gap: 1em; /* Smaller gap */
+    }
+
+    /* Contact Form */
+    #contact { padding: 2em 0.5em; }
+    #contact-form {
+        padding: 1.5em;
+    }
+    #contact input[type="text"],
+    #contact input[type="tel"],
+    #contact input[type="email"],
+    #contact input[type="file"],
+    #contact .button[type="submit"] {
+        font-size: 0.95em; /* Adjust form input font size */
+        padding: 0.6em;
+    }
+
+    /* Footer */
+    #footer { padding: 2em 0.5em; }
+    #footer .footer-column {
+        margin-bottom: 1.5em;
+    }
+    #footer .footer-bottom p {
+        font-size: 0.85em;
+    }
+}
+
+#footer .contact-info a {
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+#footer .contact-info a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#footer .design-credit {
+    /* Placeholder styles */
+    font-size: 0.9em;
+}
+#footer .design-credit h4{
+    margin-bottom: 0.5em;
+}
+
+
+#footer .design-credit a {
+    color: #adb5bd;
+    text-decoration: none;
+    display: block; /* To make the whole area clickable if needed */
+}
+#footer .design-credit .logo-placeholder-footer{
+    font-size: 1em;
+    margin-bottom: 0.25em;
+}
+
+
+#footer .design-credit a:hover {
+    color: #ffffff;
+}
+
+#footer .footer-bottom {
+    /* Placeholder styles */
+    text-align: center;
+    padding-top: 2em;
+    border-top: 1px solid #495057; /* Separator line */
+    font-size: 0.9em;
+    color: #adb5bd;
+}
