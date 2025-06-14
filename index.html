@@ -2,14 +2,191 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>
-        Hola Buenas tardes
-    </p>
-    
+    <main>
+        <section id="header">
+            <div class="logo-container">
+                <!-- Logo will go here -->
+                <img src="placeholder-logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#roi-calculator">ROI Calculator</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#case-study">Case Study</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+            <a href="#schedule-demo" class="demo-button">Schedule a Demo</a>
+        </section>
+        <section id="hero">
+            <h1>How Can You Turn Your Missed Calls into Increased Revenue?</h1>
+            <p>RestoHost AI ensures your restaurant never misses a call—day or night— while automating phone order taking, reservations, and even responding to frequently asked questions.</p>
+            <a href="#get-started" class="button">Get Started</a>
+            <a href="#listen-demo" class="button-secondary">LISTEN TO A DEMO</a>
+            <div class="statistics">
+                <div>
+                    <span class="statistic-value">0%</span>
+                    <span class="statistic-label">Outside business hours calls</span>
+                </div>
+                <div>
+                    <span class="statistic-value">0%</span>
+                    <span class="statistic-label">Increase in converted reservations</span>
+                </div>
+                <div>
+                    <span class="statistic-value">0%</span>
+                    <span class="statistic-label">first call resolution rate</span>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <h2>Get a Sneak Peek Of Our Voice Assistants!</h2>
+            <p>Create an experience for your guests unlike any other with an AI answering phone system. Customize your voice and sounds, with dozens of voices and soundscapes to choose from—all while staying consistent with your brand.</p>
+            <div class="voice-demos">
+                <div class="demo-container">
+                    <h3>MARY - Lima Nikkei</h3>
+                    <button class="listen-button">LISTEN</button>
+                </div>
+                <div class="demo-container">
+                    <h3>NACHO - Rreal Tacos</h3>
+                    <button class="listen-button">LISTEN</button>
+                </div>
+            </div>
+            <!-- Existing Features content can go here or be removed if this is the only feature -->
+            <hr> <!-- Adding a separator for clarity -->
+            <div class="services-subsection">
+                <h2>Services</h2>
+                <h3>Product Features and Functionality</h3>
+                <p>Comprehensive solutions tailored to your needs.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">[icon]</div>
+                        <h4>Reservation System compatibility</h4>
+                        <p>Seamlessly integrates with your existing reservation system, ensuring a smooth booking process for your customers without disruptions.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">[icon]</div>
+                        <h4>Multilingual Support</h4>
+                        <p>Cater to a diverse customer base with AI-powered multilingual capabilities, ensuring seamless communication in multiple languages.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">[icon]</div>
+                        <h4>To-Go Order Compatibility</h4>
+                        <p>Handles takeout and delivery orders efficiently, providing real-time SMS links for seamless ordering and reducing call handling time for staff.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">[icon]</div>
+                        <h4>Customized Host profile for your Brand</h4>
+                        <p>Customize its tone, responses, and personality to ensure seamless customer interactions, taking reservations and orders just like your best staff member would.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="roi-calculator-section">
+            <h2>How Much Revenue Are You Leaving On The Table?</h2>
+            <p>Restaurants miss 25% of calls, peaking at 50%, leading to lost revenue. RestoHost AI answers all calls, boosting sales by recovering missed revenue and smart upsells.</p>
+            <div class="calculator-subsections">
+                <div class="subsection">
+                    <h3>Revenue Calculator</h3>
+                    <p>Use our ROI formula to estimate how much revenue you’re missing each month.</p>
+                    <div id="roi-calculator-placeholder">
+                        <!-- Calculator will be embedded or built here -->
+                        <p>[ROI Calculator Placeholder]</p>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3>Identify Revenue Leaks</h3>
+                    <p>Analyze missed calls, peak hours, and upselling opportunities.</p>
+                </div>
+            </div>
+            <a href="#get-started-roi" class="button">Start transforming missed calls into profits today!</a>
+        </section>
+        <section id="pricing">
+            <h2>Our Pricing</h2>
+            <h3>Choose The Right Plan For You</h3>
+            <p class="secondary-subheadline">No matter your restaurant type or size, there’s a plan for you.</p>
+            <div class="pricing-plans-container">
+                <div class="pricing-plan">
+                    <h4>Standard Plan</h4>
+                    <p class="price">$299/month</p>
+                    <p class="price-subtext">per location</p>
+                    <ul>
+                        <li>24/7 availability</li>
+                        <li>Reservation management</li>
+                        <li>To-go order intake</li>
+                        <li>Pre-set voice and Host agent</li>
+                    </ul>
+                    <a href="#get-started-standard" class="button">Get Started</a>
+                </div>
+                <div class="pricing-plan best-value">
+                    <span class="badge">Best Value</span>
+                    <h4>Executive Plan</h4>
+                    <p class="price">$499/month</p>
+                    <p class="price-subtext">per location</p>
+                    <ul>
+                        <li>Standard plan +</li>
+                        <li>100% customized Host agent</li>
+                        <li>Premium direct integrations</li>
+                        <li>Multilingual support</li>
+                        <li>Dedicated Customer Success Manager</li>
+                    </ul>
+                    <a href="#get-started-executive" class="button">Get Started</a>
+                </div>
+                <div class="pricing-plan">
+                    <h4>Enterprise Plan</h4>
+                    <p class="price">CONTACT SALES FOR PRICING</p>
+                    <ul>
+                        <li>Tailored AI Host solutions for chains with + 25 locations</li>
+                        <li>Integrating into your processes with AI revolution</li>
+                    </ul>
+                    <a href="#contact-sales-enterprise" class="button button-secondary">Contact sales</a>
+                </div>
+            </div>
+        </section>
+        <section id="case-study">
+            <h2>How our voice Assistant Turns Missed Calls Into Increased Revenue</h2>
+            <div class="benefits-container">
+                <div class="benefit-item">
+                    <h3>Recovery of Lost Opportunities</h3>
+                    <p>AI recovers missed calls, ensuring every potential customer gets a response and maximizing conversion opportunities.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Handling Calls 24/7</h3>
+                    <p>AI answers calls even outside business hours, capturing sales and reservations when the staff is unavailable.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Real-Time Optimization</h3>
+                    <p>AI handles simultaneous calls, preventing missed opportunities and improving customer satisfaction.</p>
+                </div>
+            </div>
+            <a href="#" class="button case-study-button">View Full Case Study</a>
+        </section>
+        <section id="compatible-with">
+            <h2>Compatible with</h2>
+            <div class="logos-grid">
+                <div class="logo-placeholder">Open Table Logo</div>
+                <div class="logo-placeholder">Uber Eats Logo</div>
+                <div class="logo-placeholder">DoorDash Logo</div>
+                <div class="logo-placeholder">Yelp Logo</div>
+                <div class="logo-placeholder">GrubHub Logo</div>
+                <div class="logo-placeholder">Resy Logo</div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <!-- Testimonials content will go here -->
+        </section>
+        <section id="contact">
+            <!-- Contact content will go here -->
+        </section>
+        <section id="footer">
+            <!-- Footer content will go here -->
+        </section>
+    </main>
 </body>
 </html>

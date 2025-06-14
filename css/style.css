@@ -1,0 +1,535 @@
+/* Basic CSS rules for header and navigation bar */
+
+/* Logo container */
+#header .logo-container {
+    /* Placeholder styles */
+    float: left;
+}
+
+/* Navigation menu */
+#header nav ul {
+    /* Placeholder styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header nav li {
+    /* Placeholder styles */
+    float: left;
+}
+
+#header nav li a {
+    /* Placeholder styles */
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/* "Schedule a Demo" button */
+#header .demo-button {
+    /* Placeholder styles */
+    float: right;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Example color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero h1 {
+    /* Placeholder styles */
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    /* Placeholder styles */
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#hero .button, #hero .button-secondary {
+    /* Placeholder styles */
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#hero .button {
+    /* Placeholder styles */
+    background-color: #007bff; /* Example primary color */
+    color: white;
+}
+
+#hero .button-secondary {
+    /* Placeholder styles */
+    background-color: #6c757d; /* Example secondary color */
+    color: white;
+}
+
+#hero .statistics {
+    /* Placeholder styles */
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero .statistics div {
+    /* Placeholder styles */
+    text-align: center;
+}
+
+#hero .statistic-value {
+    /* Placeholder styles */
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#hero .statistic-label {
+    /* Placeholder styles */
+    font-size: 1em;
+    color: #555;
+}
+
+/* Features Section / Sneak Peek */
+#features h2 {
+    /* Placeholder styles */
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+#features p { /* This applies to p tags directly under #features, like the sneak peek intro */
+    /* Placeholder styles */
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#features .voice-demos {
+    /* Placeholder styles */
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 2em;
+}
+
+#features .demo-container {
+    /* Placeholder styles */
+    border: 1px solid #ddd; /* Example border */
+    padding: 1.5em;
+    text-align: center;
+    width: 40%; /* Adjust as needed */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Example shadow */
+}
+
+#features .demo-container h3 {
+    /* Placeholder styles */
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+#features .listen-button {
+    /* Placeholder styles */
+    background-color: #17a2b8; /* Example info color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Services Subsection within Features */
+#features .services-subsection {
+    /* Placeholder styles */
+    padding-top: 2em;
+    margin-top: 2em;
+}
+
+#features .services-subsection h2 {
+    /* Placeholder styles - assuming similar to #features h2 */
+    font-size: 2em;
+    margin-bottom: 0.25em; /* Tighter margin for sub-headline */
+    text-align: center;
+}
+
+#features .services-subsection h3 {
+    /* Placeholder styles */
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #333; /* Slightly different color for sub-headline */
+    font-weight: normal;
+}
+
+#features .services-subsection > p { /* Direct child for the main descriptive text of services */
+    /* Placeholder styles - assuming similar to #features p */
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#features .features-grid {
+    /* Placeholder styles */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+#features .feature-item {
+    /* Placeholder styles */
+    border: 1px solid #eee; /* Lighter border */
+    padding: 1.5em;
+    text-align: center;
+    background-color: #f9f9f9; /* Slight background color for items */
+}
+
+#features .feature-icon {
+    /* Placeholder styles */
+    font-size: 2em; /* Placeholder icon size */
+    margin-bottom: 0.5em;
+    color: #007bff; /* Example icon color */
+}
+
+#features .feature-item h4 {
+    /* Placeholder styles */
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+#features .feature-item p {
+    /* Placeholder styles */
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+    text-align: left; /* Align feature description text to left for readability */
+}
+
+
+/* ROI Calculator Section */
+#roi-calculator-section {
+    /* Placeholder styles */
+    padding: 2em 0;
+    text-align: center;
+}
+
+#roi-calculator-section h2 {
+    /* Placeholder styles */
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#roi-calculator-section > p { /* Direct child selector for the main descriptive text */
+    /* Placeholder styles */
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#roi-calculator-section .calculator-subsections {
+    /* Placeholder styles */
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+#roi-calculator-section .subsection {
+    /* Placeholder styles */
+    width: 45%; /* Adjust as needed */
+    padding: 1em;
+}
+
+#roi-calculator-section .subsection h3 {
+    /* Placeholder styles */
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#roi-calculator-section .subsection p {
+    /* Placeholder styles */
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+#roi-calculator-placeholder {
+    /* Placeholder styles */
+    border: 2px dashed #ccc; /* Example border */
+    padding: 2em;
+    min-height: 150px; /* Example height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9; /* Example background */
+}
+
+#roi-calculator-placeholder p {
+    /* Placeholder styles */
+    margin: 0;
+    color: #777;
+    font-style: italic;
+}
+
+#roi-calculator-section .button {
+    /* Placeholder styles */
+    background-color: #28a745; /* Example success color */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    display: inline-block; /* To allow margin auto and padding */
+}
+
+/* Case Study Section */
+#case-study {
+    /* Placeholder styles */
+    padding: 2em 0;
+    text-align: center;
+    background-color: #f0f8ff; /* Example: AliceBlue for slight differentiation */
+}
+
+#case-study h2 {
+    /* Placeholder styles */
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#case-study .benefits-container {
+    /* Placeholder styles */
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    gap: 1.5em; /* Space between items */
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    text-align: left; /* Align text within each benefit item to the left */
+}
+
+#case-study .benefit-item {
+    /* Placeholder styles */
+    width: 30%; /* Adjust as needed, considering gap */
+    padding: 1.5em;
+    background-color: #fff; /* White background for benefit items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow */
+}
+
+#case-study .benefit-item h3 {
+    /* Placeholder styles */
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    color: #0056b3; /* Darker blue for benefit titles */
+}
+
+#case-study .benefit-item p {
+    /* Placeholder styles */
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+#case-study .case-study-button {
+    /* Placeholder styles */
+    background-color: #ffc107; /* Example warning/amber color */
+    color: #212529; /* Dark color for text on amber */
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    display: inline-block;
+    border: none; /* Remove default border if any */
+    font-weight: bold;
+}
+
+/* Compatible With Section */
+#compatible-with {
+    /* Placeholder styles */
+    padding: 2em 0;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+}
+
+#compatible-with h2 {
+    /* Placeholder styles */
+    font-size: 1.8em; /* Slightly smaller than other main headlines */
+    margin-bottom: 1.5em;
+    color: #444; /* Dark gray color */
+}
+
+#compatible-with .logos-grid {
+    /* Placeholder styles */
+    display: flex;
+    flex-wrap: wrap; /* Allow logos to wrap on smaller screens */
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically if they have different heights */
+    gap: 2em; /* Space between logos */
+    margin-top: 1em;
+    padding-left: 1em; /* Add some padding to prevent overflow issues with flex items */
+    padding-right: 1em;
+}
+
+#compatible-with .logo-placeholder {
+    /* Placeholder styles */
+    border: 1px dashed #ccc; /* Dashed border for placeholder */
+    padding: 1em 1.5em; /* Padding around the text */
+    font-size: 0.9em;
+    color: #666;
+    background-color: #f9f9f9; /* Light gray background */
+    min-width: 120px; /* Minimum width for each logo placeholder */
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding and border don't increase width */
+}
+
+/* Pricing Section */
+#pricing {
+    /* Placeholder styles */
+    padding: 3em 0;
+    text-align: center;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+#pricing h2 { /* Main headline */
+    /* Placeholder styles */
+    font-size: 2.2em;
+    margin-bottom: 0.25em;
+}
+
+#pricing h3 { /* Sub-headline */
+    /* Placeholder styles */
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+    color: #333;
+    font-weight: normal;
+}
+
+#pricing .secondary-subheadline {
+    /* Placeholder styles */
+    font-size: 1.1em;
+    margin-bottom: 2.5em;
+    color: #555;
+}
+
+#pricing .pricing-plans-container {
+    /* Placeholder styles */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center plans */
+    gap: 2em; /* Space between plans */
+    align-items: stretch; /* Make cards same height if they have different content length */
+}
+
+#pricing .pricing-plan {
+    /* Placeholder styles */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2em;
+    width: 300px; /* Fixed width or use flex-basis for responsiveness */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: space-between; /* Pushes button to bottom */
+    position: relative; /* For badge positioning */
+}
+
+#pricing .pricing-plan.best-value {
+    /* Placeholder styles */
+    border-color: #007bff; /* Highlight color for best value */
+    border-width: 2px;
+    transform: scale(1.05); /* Slightly larger */
+}
+
+#pricing .badge {
+    /* Placeholder styles */
+    position: absolute;
+    top: -15px; /* Adjust to position badge correctly */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff; /* Badge color */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px; /* Pill shape */
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#pricing .pricing-plan h4 { /* Plan title */
+    /* Placeholder styles */
+    font-size: 1.4em;
+    margin-bottom: 0.75em;
+    color: #0056b3; /* Darker blue for plan titles */
+}
+
+#pricing .price {
+    /* Placeholder styles */
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    color: #28a745; /* Green color for price */
+}
+
+#pricing .price-subtext {
+    /* Placeholder styles */
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 1.5em;
+}
+
+#pricing .pricing-plan ul {
+    /* Placeholder styles */
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin-bottom: 2em;
+    text-align: left; /* Align list items to the left */
+    flex-grow: 1; /* Allows list to take available space, pushing button down */
+}
+
+#pricing .pricing-plan ul li {
+    /* Placeholder styles */
+    margin-bottom: 0.75em;
+    font-size: 0.95em;
+    color: #333;
+    position: relative; /* For custom bullet */
+    padding-left: 20px; /* Space for custom bullet */
+}
+
+#pricing .pricing-plan ul li::before { /* Custom bullet */
+    content: "✔"; /* Checkmark icon */
+    position: absolute;
+    left: 0;
+    color: #28a745; /* Green checkmark */
+    font-weight: bold;
+}
+
+#pricing .pricing-plan .button {
+    /* Placeholder styles */
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    display: block; /* Make button full width of its container */
+    margin-top: auto; /* Pushes button to the bottom if content above is shorter */
+}
+
+#pricing .pricing-plan .button-secondary {
+    /* Placeholder styles */
+    background-color: #6c757d;
+}
